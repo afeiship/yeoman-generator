@@ -1,0 +1,12 @@
+{
+  "name": "boilerplate-gulp",
+  "version": "1.0.0",
+  "description": "Boilerplate for gulp.",
+  "homepage": "https://github.com/afeiship/boilerplate-gulp",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
