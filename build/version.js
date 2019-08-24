@@ -6,11 +6,6 @@
     pattern: ['gulp-*', 'gulp.*', 'del']
   });
 
-  /**
-   * @thanks to:
-   * http://www.jianshu.com/p/d616d3bf391f
-   */
-
   gulp.task(
     'bump',
     gulp.parallel(function() {

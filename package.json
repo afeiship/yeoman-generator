@@ -7,6 +7,24 @@
     "name": "afei",
     "email": "1290657123@qq.com"
   },
+  "scripts": {
+    "build": "gulp",
+    "version": "gulp bump"
+  },
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-bump": "^3.1.3",
+    "gulp-header": "^2.0.9",
+    "gulp-ignore": "^3.0.0",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "next-nice-comments": "github:afeiship/next-nice-comments",
+    "uglify-save-license": "^0.4.1"
+  }
 }
