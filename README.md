@@ -1,5 +1,5 @@
 # boilerplate-gulp
-> Boilerplate for gulp.
+> boilerplate-gulp-description
 
 ## installation
 ```shell
