@@ -21,21 +21,18 @@
     'js'
   );
 
-  gulp.task(
-    'scripts',
-    gulp.parallel(function() {
-      return gulp
-        .src('src/*.js')
-        .pipe($.sourcemaps.init())
-        .pipe($.header(niceComments, { pkg: pkg }))
-        .pipe($.sourcemaps.write('.'))
-        .pipe(gulp.dest('dist'))
-        .pipe($.size({ title: '[ default size ]:' }))
-        .pipe($.ignore('*.js.map'))
-        .pipe($.uglify({ output: { comments: saveLicense } }))
-        .pipe($.rename({ extname: '.min.js' }))
-        .pipe(gulp.dest('dist'))
-        .pipe($.size({ title: '[ minimize size ]:' }));
-    })
-  );
+  gulp.task('scripts', function() {
+    return gulp
+      .src('src/*.js')
+      .pipe($.sourcemaps.init())
+      .pipe($.header(niceComments, { pkg: pkg }))
+      .pipe($.sourcemaps.write('.'))
+      .pipe(gulp.dest('dist'))
+      .pipe($.size({ title: '[ default size ]:' }))
+      .pipe($.ignore('*.js.map'))
+      .pipe($.uglify({ output: { comments: saveLicense } }))
+      .pipe($.rename({ extname: '.min.js' }))
+      .pipe(gulp.dest('dist'))
+      .pipe($.size({ title: '[ minimize size ]:' }));
+  });
 })();

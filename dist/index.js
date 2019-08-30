@@ -2,7 +2,7 @@
  * name: boilerplate-gulp
  * url: https://github.com/afeiship/boilerplate-gulp
  * version: 1.0.0
- * date: 2019-08-24T00:28:24.186Z
+ * date: 2019-08-30T07:37:57.123Z
  * license: MIT
  */
 
