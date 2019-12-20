@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-gulp",
+  "name": "@feizheng/boilerplate-gulp",
   "version": "1.0.0",
   "description": "boilerplate-gulp-description",
   "homepage": "https://github.com/afeiship/boilerplate-gulp",
@@ -27,5 +27,8 @@
     "gulp-uglify": "^3.0.2",
     "next-nice-comments": "github:afeiship/next-nice-comments",
     "uglify-save-license": "^0.4.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
