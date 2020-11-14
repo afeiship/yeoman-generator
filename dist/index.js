@@ -1,13 +1,12 @@
 /*!
- * name: boilerplate-gulp
- * url: https://github.com/afeiship/boilerplate-gulp
+ * name: @jswork/boilerplate-gulp
+ * description: boilerplate-gulp-description
+ * homepage: https://github.com/afeiship/boilerplate-gulp
  * version: 1.0.0
- * date: 2019-08-30T07:37:57.123Z
+ * date: 2020-11-14T05:31:01.746Z
  * license: MIT
  */
 
 module.exports = function(params) {
   console.log(params);
 };
-
-//# sourceMappingURL=index.js.map
