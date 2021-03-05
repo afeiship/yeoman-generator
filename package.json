@@ -1,5 +1,5 @@
 {
-  "name": "@jswork/boilerplate-gulp",
+  "name": "@boilerplate-scope/boilerplate-gulp",
   "version": "1.0.0",
   "description": "boilerplate-gulp-description",
   "homepage": "https://github.com/afeiship/boilerplate-gulp",
@@ -14,7 +14,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
-    "@jswork/gulp-pkg-header": "^1.0.1",
+    "@boilerplate-scope/gulp-pkg-header": "^1.0.1",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-header": "^2.0.9",
