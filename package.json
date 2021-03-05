@@ -27,7 +27,7 @@
     "uglify-save-license": "^0.4.1"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "access": "<%= registry.access %>",
+    "registry": "<%= registry.publish %>"
   }
 }
