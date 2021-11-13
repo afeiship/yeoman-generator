@@ -2,7 +2,7 @@
   "name": "@boilerplate-scope/boilerplate-gulp",
   "version": "1.0.0",
   "description": "boilerplate-gulp-description",
-  "homepage": "https://github.com/afeiship/boilerplate-gulp",
+  "homepage": "https://js.work",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -29,5 +29,10 @@
   "publishConfig": {
     "access": "<%= registry.access %>",
     "registry": "<%= registry.publish %>"
+  },
+  "boilerplate": "@boilerplate-scope/boilerplate-gulp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afeiship/@boilerplate-scope/boilerplate-gulp"
   }
 }
