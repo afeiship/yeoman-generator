@@ -30,9 +30,9 @@
     "access": "<%= registry.access %>",
     "registry": "<%= registry.publish %>"
   },
-  "boilerplate": "@boilerplate-scope/boilerplate-gulp",
+  "boilerplate": "boilerplate-gulp",
   "repository": {
     "type": "git",
-    "url": "https://github.com/afeiship/@boilerplate-scope/boilerplate-gulp"
+    "url": "https://github.com/afeiship/boilerplate-gulp.git"
   }
 }
