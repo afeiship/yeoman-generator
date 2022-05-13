@@ -1,6 +1,6 @@
 {
   "name": "@jswork/yeoman-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My base yeoman-generator.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -30,5 +30,10 @@
     "@jswork/yeoman-generator-helper": "^1.0.9",
     "globby": "^11.1.0",
     "yeoman-generator": "^5.6.1"
-  }
+  },
+  "keywords": [
+    "yo",
+    "yeoman",
+    "base"
+  ]
 }
