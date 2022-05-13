@@ -1,38 +1,29 @@
 {
-  "name": "@boilerplate-scope/boilerplate-gulp",
+  "name": "@jswork/yeoman-generator",
+  "private": true,
   "version": "1.0.0",
-  "description": "boilerplate-gulp-description",
-  "homepage": "https://js.work",
-  "author": {
-    "name": "afei",
-    "email": "1290657123@qq.com"
-  },
+  "description": "My base yeoman-generator.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "gulp",
+    "postbuild": "tsc --emitDeclarationOnly",
+    "build": "node esbuild.config.js",
     "release": "release-it"
   },
-  "main": "dist/index.js",
   "license": "MIT",
-  "devDependencies": {
-    "@jswork/gulp-pkg-header": "^1.0.1",
-    "del": "^5.1.0",
-    "gulp": "^4.0.2",
-    "gulp-header": "^2.0.9",
-    "gulp-ignore": "^3.0.0",
-    "gulp-load-plugins": "^2.0.1",
-    "gulp-rename": "^1.4.0",
-    "gulp-size": "^3.0.0",
-    "gulp-uglify": "^3.0.2",
-    "release-it": "^14.2.1",
-    "uglify-save-license": "^0.4.1"
-  },
   "publishConfig": {
-    "access": "<%= registry.access %>",
-    "registry": "<%= registry.publish %>"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
-  "boilerplate": "boilerplate-gulp",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/afeiship/boilerplate-gulp.git"
+  "boilerplate": "generator-typescript",
+  "homepage": "https://js.work",
+  "devDependencies": {
+    "esbuild": "^0.14.38",
+    "esbuild-node-externals": "^1.4.1",
+    "esbuild-plugin-clean": "^0.9.0",
+    "prettier": "^2.6.2",
+    "release-it": "^15.0.0",
+    "typescript": "^4.6.4"
   }
 }
