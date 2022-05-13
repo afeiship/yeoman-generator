@@ -9,7 +9,7 @@ export default class YeomanGenerator extends Generator {
     options: { dot: true },
   };
 
-  get sFiles() {
+  get srcFiles() {
     const { pattern, options } = this.srcOpts;
     return globby.sync(this.templatePath(pattern), options);
   }
