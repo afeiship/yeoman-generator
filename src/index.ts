@@ -4,13 +4,13 @@ import yoHelper from '@jswork/yeoman-generator-helper';
 
 export default class YeomanGenerator extends Generator {
   protected ctx = yoHelper.ctx;
-  protected srcOpts = {
+  protected srcOptions = {
     pattern: '**',
     options: { dot: true },
   };
 
   get srcFiles() {
-    const { pattern, options } = this.srcOpts;
+    const { pattern, options } = this.srcOptions;
     return globby.sync(this.templatePath(pattern), options);
   }
 
