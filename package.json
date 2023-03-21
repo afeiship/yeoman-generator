@@ -18,7 +18,6 @@
   "boilerplate": "generator-typescript",
   "homepage": "https://js.work",
   "devDependencies": {
-    "@types/yeoman-generator": "^5.2.11",
     "esbuild": "^0.17.10",
     "esbuild-node-externals": "^1.6.0",
     "esbuild-plugin-clean": "^1.0.1",
@@ -30,7 +29,7 @@
   "dependencies": {
     "@jswork/yeoman-generator-helper": "^1.0.9",
     "globby": "^11.1.0",
-    "yeoman-generator": "^5.8.0"
+    "yeoman-generator": "4"
   },
   "keywords": [
     "yo",
